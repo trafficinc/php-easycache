@@ -17,7 +17,7 @@ $cache = new Trafficinc\Util\EasyCache();
 
 ## Usage
 ```php
-$cache = new TRafficinc\Util\EasyCache();
+$cache = new Trafficinc\Util\EasyCache();
 $cache->cache_path = 'cache/';
 $cache->cache_time = 3600;
 
