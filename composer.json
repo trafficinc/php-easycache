@@ -1,0 +1,24 @@
+{
+  "name": "trafficinc/php-easycache",
+  "type": "library",
+  "description": "An easy way to cache 3rd party API calls with PHP.",
+  "keywords": [
+    "easycache",
+    "cache"
+  ],
+  "homepage": "https://github.com/trafficinc/PHP-EasyCache",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ron Bailey"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Trafficinc\\Util\\": "src/"
+    }
+  }
+}
